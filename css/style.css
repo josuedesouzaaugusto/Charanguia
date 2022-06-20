@@ -1,0 +1,306 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+   background: url(Imagens/PlanoDeFundo.jpg );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   
+}
+
+/****************Área de configuração de parágrafos e títulos*************************/
+h2{
+    text-align: center;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+/******************Comando para limpar********************/
+.clear{
+    clear: both;
+}
+/***********************Área do topo****** */
+#topo{
+    border: none;
+}
+
+#logo{
+    text-align: center;
+    padding: 15px;
+    background: #E3C27D;
+    
+}
+
+#menu{
+    text-align: center;
+    padding: 30px;
+    background: #89471C;
+    
+}
+
+#menu a:link{
+    color:#D89637;
+    text-decoration:none;
+    padding: 15px;
+    background: none;
+    margin: 40px; 
+}
+
+#menu a:visited{
+    color:#D89637;
+    text-decoration:none;
+    padding: 15px;
+    background: none;
+    margin: 40px;
+}
+
+#menu a:hover{
+    color:#89471C;
+    text-decoration:none;
+    padding: 15px;
+    background: #D89637; 
+}
+
+a.linkum:active {
+    text-decoration:none;
+  }
+
+#imagemDaLogo{
+    border: #89471C solid 2px;
+}
+
+/*********************Conteúdo****************/
+
+#conteudo{
+    margin: auto;
+    width: 960px;
+    height: 100%px;
+    padding: 0px;
+    position: relative;
+    top: 10px;
+}
+
+/********Origem*******/
+#origem{
+    margin: auto;
+    margin-bottom: 30px;
+    background: #DEAC6E;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#origem img{
+    border: solid #E3C27D 5px;
+}
+
+#origem h2{
+    color: rgb(57, 56, 56);
+    position: relative;
+    top: -10px;
+}
+
+#origem p{
+    color: rgb(57, 56, 56);
+}
+
+.paragrafoParaDireita{
+
+    width: 460px;
+    float: right;
+    position: relative;
+    top: 0px;
+    
+}
+
+.paragrafoParaEsquerda{
+    
+    width: 460px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.imagem_1{
+    width: 401px;
+    height: 282px;
+    position: relative;
+    top: 0px;
+}
+
+.imagem_2{
+    float: right;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*******Partes do instrumento*******/
+
+#partesDoInstrumento{
+    margin: auto;
+    margin-bottom: 30px;
+    background: #DEAC6E;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#partesDoInstrumento img{
+    border: solid #E3C27D 5px;
+}
+
+#partesDoInstrumento h2{
+    color: rgb(57, 56, 56);
+    position: relative;
+    top: -10px;
+}
+
+#partesDoInstrumento p{
+    color: rgb(57, 56, 56);
+}
+
+.imagem_3{
+    width: 401px;
+    height: 640px;
+    position: relative;
+    top: 0px;
+}
+
+/*******Modelos do charango*******/
+
+#modelos{
+    margin: auto;
+    margin-bottom: 30px;
+    background: #DEAC6E;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#modelos img{
+    border: solid #E3C27D 5px;
+}
+
+#modelos h2{
+    color: rgb(57, 56, 56);
+    position: relative;
+    top: -10px;
+}
+
+#modelos p{
+    color: rgb(57, 56, 56);
+}
+
+.imagem_4{
+    width: 500px;
+    height: 380px;
+    position: relative;
+    margin-top: 10px;
+       
+}
+
+.imagem_5{
+    width: 350px;
+    height: 650px;
+    position: relative;
+    margin-left: 540px;
+    margin-top: -395px;
+}
+
+
+
+/************Como tocar****************/
+#comoTocar{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #DEAC6E;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#comoTocar img{
+    border: solid #E3C27D 5px;
+}
+
+#comoTocar h2{
+    color: rgb(57, 56, 56);
+    position: relative;
+    top: -10px;
+}
+
+#comoTocar p{
+    color: rgb(57, 56, 56);
+    text-align: left;
+}
+
+.imagem_6{
+    width: 790px;
+    height: 460px;
+}
+
+/***************Dúvidas********************/
+#duvidas{
+    margin: auto;
+    margin-bottom: 30px;
+    background: #DEAC6E;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+
+}
+
+#duvidas h2{
+    color: rgb(57, 56, 56);
+    position: relative;
+    top: -10px;
+}
+    
+#duvidas p{
+    color: rgb(57, 56, 56);
+    text-align: left;
+}
+
+#duvidas input{
+    margin-top: 0px;
+}
+
+#corDaFonteDoFormulario{
+    color: rgb(57, 56, 56);
+}
+
+/**************Rodapé*********************/
+footer{
+    color: #D89637;
+    background: #89471C;
+    text-align: center;
+    padding:  15px;
+    margin-top: 20px;
+}
+
+/**************Rodapé para página com pouco conteúdo******************/
+.rodapeComPoucoConteudo{
+    color: #D89637;
+    background: #89471C;
+    text-align: center;
+    padding:  15px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
